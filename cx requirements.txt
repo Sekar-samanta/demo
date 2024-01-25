@@ -1,0 +1,12 @@
+•	CX wants to build a web Application (any kind of web application that doesn’t matter here)
+•	Cx also wants to create a database.
+•	The web application should be available to public
+•	The db should be private
+•	Cx wants to create a vpc with the 50,000 ip’s
+•	Cx wants a to create a public subnet with 5000 ip’s
+•	Cx wants a to create a private subnet with 5000 ip’s
+•	Public subnet should be able to accessed via internet
+•	Private subnet should be private, can only be accessed via LAN
+•	Public subnet should have access to IGW.
+•	Public route table will be associated with IGW and will be associated to public subnet
+•	Private route table will only have the local route and will be associated to private subnet
